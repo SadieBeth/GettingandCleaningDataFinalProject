@@ -1,0 +1,52 @@
+---
+title: "CodeBook"
+author: "Sadie"
+date: "8/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Summary Table of Means and Standard Deviations from Smartlab
+## Introduction
+The summary table included in this project contains data from the following data set:
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 Accessed 3 August 2020 from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Access the above data set for more information on the original data, what they measure and how they were sampled and calculated. This document will only describe the data in the included file Summary.csv and how it was produced by the included script run_analysis.R
+
+## Explanation of run_analysis
+run_analysis.R performs the following steps to tidy the UCI HAR Dataset and create a summary table of it. 
+
+Note: for run_analysis to work properly, the following files/folders must be available in the working directory:
+UCI HAR Dataset\
+	"activity_labels.txt"
+ 	"features.txt"
+	test\
+		"X_test.txt"
+		"y_test.txt"
+		"subject_test.txt"
+	train\
+		"X_train.txt"
+		"y_train.txt"
+		"subject_train.txt"
+
+1. X_test.txt and X_train.txt are source files from the above cited database (Anguita et al) that contain data calculated from the raw inertial signal data. For each group of measurements, features are calculated including MEANS and STANDARD DEVIATIONS. Other features are included but will be removed by the run_analysis script. See (Anguita et al) for more information on the data include in these text files.
+2. Load X_test.txt and X_train.txt, read as a fixed-width format file, and select the features from each database that represent the MEANS and STANDARD DEVIATIONS features, removing other features. The resulting dataframes are saved as variables test_data and train_data
+3. For both test and train data, create a tidy dataset:
+	a. Provided dataset stores column labels as a separate list; run_analysis renames columns from this list.
+	b. Provided dataset stores descriptive activity lables (WALKING, LAYING, etc.) in a separate list and uses a numeric code in X_test and X_train to signify which activity the data represent; run_analysis replaces numeric codes with a descriptive (character) label. 
+	c. run_analysis replaces numeric subject numbers with "SUBJECT XX" where X is the subject number. This was done mostly to prevent class confusion but also because I wanted to try it.
+4. run_analysis binds the rows of test and train data sets into one data set, saved as variable "data."
+5. run_analysis groups data by Activity and Subject, then summarizes these data by their means.
+6. run_analysis saves the resulting summary data as a file in the working folder: Summary.csv
+write.csv(summary,file="Summary.csv")
+
+##Description of variables in Summary.csv
+```{r features, echo = FALSE}
+library(knitr)
+feat<-read.csv("Summary_features.csv")
+kable(feat)
+```

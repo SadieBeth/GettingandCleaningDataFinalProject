@@ -1,0 +1,82 @@
+,Feature Name,Description,Class
+1,Activity,Short description of activity being performed when original data were collected.,Character
+2,Subject,Human person from whom movement data were measured in original data.,Character
+3,tBodyAcc.mean...X,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Accelleration in the X,Numeric
+4,tBodyAcc.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Accelleration in the Y,Numeric
+5,tBodyAcc.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Accelleration in the Z,Numeric
+6,tBodyAcc.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Accelleration in the X,Numeric
+7,tBodyAcc.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Accelleration in the Y,Numeric
+8,tBodyAcc.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Accelleration in the Z,Numeric
+9,tGravityAcc.mean...X,Mean (grouped by activity and subject) of mean data pertaining toGravity Accelleration in the X,Numeric
+10,tGravityAcc.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toGravity Accelleration in the Y,Numeric
+11,tGravityAcc.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toGravity Accelleration in the Z,Numeric
+12,tGravityAcc.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toGravity Accelleration in the X,Numeric
+13,tGravityAcc.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toGravity Accelleration in the Y,Numeric
+14,tGravityAcc.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toGravity Accelleration in the Z,Numeric
+15,tBodyAccJerk.mean...X,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Jerk in the X,Numeric
+16,tBodyAccJerk.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Jerk in the Y,Numeric
+17,tBodyAccJerk.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Jerk in the Z,Numeric
+18,tBodyAccJerk.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Jerk in the X,Numeric
+19,tBodyAccJerk.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Jerk in the Y,Numeric
+20,tBodyAccJerk.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Jerk in the Z,Numeric
+21,tBodyGyro.mean...X,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Accelleration in the X,Numeric
+22,tBodyGyro.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Accelleration in the Y,Numeric
+23,tBodyGyro.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Accelleration in the Z,Numeric
+24,tBodyGyro.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Accelleration in the X,Numeric
+25,tBodyGyro.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Accelleration in the Y,Numeric
+26,tBodyGyro.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Accelleration in the Z,Numeric
+27,tBodyGyroJerk.mean...X,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Jerk in the X,Numeric
+28,tBodyGyroJerk.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Jerk in the Y,Numeric
+29,tBodyGyroJerk.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toTotal Body Angular Jerk in the Z,Numeric
+30,tBodyGyroJerk.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Jerk in the X,Numeric
+31,tBodyGyroJerk.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Jerk in the Y,Numeric
+32,tBodyGyroJerk.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toTotal Body Angular Jerk in the Z,Numeric
+33,tBodyAccMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toCalculated Acceleration Magnitude,Numeric
+34,tBodyAccMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toCalculated Acceleration Magnitude,Numeric
+35,tGravityAccMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toCalculated Acceleration Magnitude,Numeric
+36,tGravityAccMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toCalculated Acceleration Magnitude,Numeric
+37,tBodyAccJerkMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toCalculated Acceleration Magnitude,Numeric
+38,tBodyAccJerkMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toCalculated Acceleration Magnitude,Numeric
+39,tBodyGyroMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toCalculated Acceleration Magnitude,Numeric
+40,tBodyGyroMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toCalculated Acceleration Magnitude,Numeric
+41,tBodyGyroJerkMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toCalculated Jerk Magnitude,Numeric
+42,tBodyGyroJerkMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toCalculated Jerk Magnitude,Numeric
+43,fBodyAcc.mean...X,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration after FFT in the X,Numeric
+44,fBodyAcc.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration after FFT in the Y,Numeric
+45,fBodyAcc.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration after FFT in the Z,Numeric
+46,fBodyAcc.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Accelleration after FFT in the X,Numeric
+47,fBodyAcc.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Accelleration after FFT in the Y,Numeric
+48,fBodyAcc.std...Z,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration after FFT in the Z,Numeric
+49,fBodyAcc.meanFreq...X,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the X,Numeric
+50,fBodyAcc.meanFreq...Y,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Y,Numeric
+51,fBodyAcc.meanFreq...Z,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Z,Numeric
+52,fBodyAccJerk.mean...X,Mean (grouped by activity and subject) of mean data pertaining toBody Jerk after FFT in the X,Numeric
+53,fBodyAccJerk.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toBody Jerk after FFT in the Y,Numeric
+54,fBodyAccJerk.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toBody Jerk after FFT in the Z,Numeric
+55,fBodyAccJerk.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Jerk after FFT in the X,Numeric
+56,fBodyAccJerk.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Jerk after FFT in the Y,Numeric
+57,fBodyAccJerk.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Jerk after FFT in the Z,Numeric
+58,fBodyAccJerk.meanFreq...X,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the X,Numeric
+59,fBodyAccJerk.meanFreq...Y,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Y,Numeric
+60,fBodyAccJerk.meanFreq...Z,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Z,Numeric
+61,fBodyGyro.mean...X,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Accelleration after FFT in the X,Numeric
+62,fBodyGyro.mean...Y,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Accelleration after FFT in the Y,Numeric
+63,fBodyGyro.mean...Z,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Accelleration after FFT in the Z,Numeric
+64,fBodyGyro.std...X,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Angular Accelleration after FFT in the X,Numeric
+65,fBodyGyro.std...Y,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Angular Accelleration after FFT in the Y,Numeric
+66,fBodyGyro.std...Z,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Angular Accelleration after FFT in the Z,Numeric
+67,fBodyGyro.meanFreq...X,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the X,Numeric
+68,fBodyGyro.meanFreq...Y,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Y,Numeric
+69,fBodyGyro.meanFreq...Z,Mean (grouped by activity and subject) of mean data pertaining toFrequency Components in the Z,Numeric
+70,fBodyAccMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration Magnitude after FFT,Numeric
+71,fBodyAccMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Accelleration Magnitude after FFT,Numeric
+72,fBodyAccMag.meanFreq..,Mean (grouped by activity and subject) of mean data pertaining toBody Accelleration Magnitude after FFT,Numeric
+73,fBodyBodyAccJerkMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toBody Jerk Magnitude after FFT,Numeric
+74,fBodyBodyAccJerkMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Jerk Magnitude after FFT,Numeric
+75,fBodyBodyAccJerkMag.meanFreq..,Mean (grouped by activity and subject) of mean data pertaining toMean Frequency,Numeric
+76,fBodyBodyGyroMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Accelleration Magnitude after FFT,Numeric
+77,fBodyBodyGyroMag.std..,Mean (grouped by activity and subject) of standard deviation data pertaining toBody Angular Accelleration Magnitude after FFT,Numeric
+78,fBodyBodyGyroMag.meanFreq..,Mean (grouped by activity and subject) of mean data pertaining toMean Frequency,Numeric
+79,fBodyBodyGyroJerkMag.mean..,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Jerk Magnitude after FFT,Numeric
+80,fBodyBodyGyroJerkMag.std..,Mean (grouped by activity and subject) of mean data pertaining toBody Angular Jerk Magnitude after FFT,Numeric
+81,fBodyBodyGyroJerkMag.meanFreq..,Mean (grouped by activity and subject) of mean data pertaining toMean Frequency,Numeric

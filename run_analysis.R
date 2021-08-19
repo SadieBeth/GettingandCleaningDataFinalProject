@@ -23,7 +23,7 @@ features<-as.list(read.delim2(features_file,header=FALSE,sep=" ",strip.white = T
 ####Generate list of features to extract
 mean_features<-grep("mean",features,value=FALSE)
 SD_features<-grep("std",features,value=FALSE)
-select_feature_ids<-sort(c(means,sds))
+select_feature_ids<-sort(c(mean_features,SD_features))
 
 ## set descriptive activity key as data table
 activity_labels<-read.delim(activity_labels_file,header = FALSE,sep=" ",strip.white = TRUE)
@@ -82,5 +82,6 @@ data<-rbind(test_data,train_data)
 grouped_data<-group_by(data,Activity,Subject)
 ##Summarize the grouped data set by averaging the variables by activity and subject
 summary<-summarize_all(grouped_data,mean)
-##Display grouped data set
+##Display grouped data set, write to file
 print(summary)
+write.csv(summary,file="Summary.csv")
